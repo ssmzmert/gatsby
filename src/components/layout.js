@@ -13,6 +13,9 @@ const Layout = ({ pageTitle, children }) => {
           <li>
             <Link to="/about">About</Link>
           </li>
+          <li>
+            <Link to="/useState">Use State</Link>
+          </li>
         </ul>
       </nav>
       <main>
