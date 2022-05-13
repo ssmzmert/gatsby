@@ -1,13 +1,14 @@
 import * as React from "react";
-import { Link } from "gatsby";
+import Layout from "../components/layout";
 
-const About = () => {
+const AboutPage = () => {
   return (
-    <div>
-      <h1>About Page</h1>
-      <Link to="/">To Index</Link>
-    </div>
+    <Layout pageTitle="About Me">
+      <p>
+        Hi there! I'm the proud creator of this site, which I built with Gatsby.
+      </p>
+    </Layout>
   );
 };
 
-export default About;
+export default AboutPage;
